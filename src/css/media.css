@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+main {
+    width: 30rem;
+}
+
+/* Product-card settings */
+.product-card {
+    display: flex;
+}
+
+/* Image settings */
+.product-img {
+    width: 50%;
+    height: auto;
+    background: url(../images/image-product-desktop.jpg) center/cover no-repeat;
+}
+
+.product-content {
+    width: 50%;
+}
+
+/* Actions settings */
+.actions button:hover {
+    background-color: var(--green700);
+}
