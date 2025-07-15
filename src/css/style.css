@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Colors */
+    --green500: hsl(158, 36%, 37%);
+    --green700: hsl(158, 42%, 18%);
+    --black: hsl(212, 21%, 14%);
+    --grey: hsl(228, 12%, 48%);
+    --cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --montserrat: "Montserrat", sans-serif;;
+    --fraunces: "Fraunces", serif;
+
+    /* Paddings */
+    --product-content-padding: 1.8rem;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+main {
+    width: 18rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    border-radius: .3rem;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.219);
+}
+
+/* Image settings */
+.product-img {
+    width: 100%;
+    height: 17rem;
+    background: url(../images/image-product-mobile.jpg) center/cover no-repeat;
+}
+
+/* Product-content settings */
+.product-content {
+    padding: var(--product-content-padding);
+}
+
+/* Product settings */
+.product {
+    font-family: var(--montserrat);
+    color: var(--grey);
+    font-size: .8rem;
+    display: block;
+    margin-bottom: .8rem;
+    letter-spacing: .2rem;
+}
+
+/* Title settings */
+.product-content h1 {
+    font-family: var(--fraunces);
+    color: var(--black);
+    margin-bottom: .9rem;
+}
+
+/* Text settings */
+.product-content p {
+    font-family: var(--montserrat);
+    font-size: .8rem;
+    color: var(--grey);
+    margin-bottom: .8rem;
+}
+
+/* Price settings */
+.product-content .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: .8rem;
+}
+
+.product-content .price span {
+    font-family: var(--fraunces);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--green500);
+    margin-right: .8rem;
+}
+
+.product-content .price del {
+    font-family: var(--montserrat);
+    font-size: .8rem;
+    color: var(--grey);
+}
+
+/* Actions settings */
+.actions button {
+    width: 100%;
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: var(--green500);
+    color: white;
+    font-family: var(--montserrat);
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.actions button:focus {
+    background-color: var(--green700);
+}
