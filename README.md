@@ -10,7 +10,7 @@ The main goal was to practice HTML5 and CSS3 concepts while recreating a clean a
 
 ## 🎨 Preview
 
-![Product Preview Card Component](./src/images/preview.jpg)
+![Product Preview Card Component](./src/images/preview.PNG)
 
 ---
 ## 🔗 Live Demo
@@ -112,7 +112,7 @@ No additional dependencies or installation steps are required.
 ---
 ## 📄 License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [GNU General Public License v3.0](./LICENSE).
 ---
 
 Developed by [Charlesson Mendes](https://github.com/Charlesson-MP).
